@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+* @package     CedHighlightjs
+* @subpackage  com_cedhighlightjs
+* @copyright   Copyright (C) 2013-2016 galaxiis.com All rights reserved.
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*
+* @license GNU GPL v3 (http://www.gnu.org/licenses/gpl.txt)
+-->
+<extension type="plugin" version="3.0" method="upgrade" group="system">
+    <name>CedHighLightJs | Galaxiis.com</name>
+    <creationDate>2016-05-30</creationDate>
+    <version>1.0.1</version>
+
+    <author>Galaxiis</author>
+    <authorEmail>galaxiiscom@gmail.com</authorEmail>
+    <authorUrl>www.galaxiis.com</authorUrl>
+
+    <copyright>Copyright (C) 2013-2016 galaxiis.com All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL 3.0</license>
+
+    <description>PLG_SYSTEM_CEDHIGHLIGHTJS_XML_DESCRIPTION</description>
+
+    <files>
+        <filename plugin="cedhighlightjs">cedhighlightjs.php</filename>
+        <filename>index.html</filename>
+        <folder>fields</folder>
+        <folder>language</folder>
+        <folder>assets</folder>
+    </files>
+
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.plg_system_cedhighlightjs.ini</language>
+        <language tag="de-DE">de-DE/de-DE.plg_system_cedhighlightjs.ini</language>
+        <language tag="fr-FR">fr-FR/fr-FR.plg_system_cedhighlightjs.ini</language>
+    </languages>
+
+    <config>
+        <fields name="params">
+
+            <!--https://highlightjs.org/download/-->
+            <fieldset name="basic" addfieldpath="plugins/system/cedhighlightjs/fields">
+                <field name="skins" type="radio" default="default.min.css" label="PLG_SYSTEM_CEDHIGHLIGHTJS_SKINS"
+                       description="PLG_SYSTEM_CEDHIGHLIGHTJS_SKINS_DESC">
+
+                    <option value="default.min.css">Default</option>
+                    <option value="dark.min.css">Dark</option>
+                    <option value="far.min.css">FAR</option>
+                    <option value="idea.min.css">IDEA</option>
+                    <option value="sunburst.min.css">Sunburst</option>
+                    <option value="zenburn.min.css">Zenburn</option>
+                    <option value="vs.min.css">Visual Studio</option>
+                    <option value="ascetic.min.css">Ascetic</option>
+                    <option value="magula.min.css">Magula</option>
+                    <option value="github.min.css">GitHub</option>
+                    <option value="googlecode.min.css">Google Code</option>
+                    <option value="brown_paper.min.css">Brown Paper</option>
+                    <option value="school_book.min.css">School Book</option>
+                    <option value="ir_black.min.css">IR Black</option>
+                    <option value="solarized_dark.min.css">Solarized - Dark</option>
+                    <option value="solarized_light.min.css">Solarized - Light</option>
+                    <option value="arta.min.css">Arta</option>
+                    <option value="monokai.min.css">Monokai</option>
+                    <option value="monokai_sublime.min.css">Monokai Sublime</option>
+                    <option value="xcode.min.css">XCode</option>
+                    <option value="pojoaque.min.css">Pojoaque</option>
+                    <option value="rainbow.min.css">Rainbow</option>
+                    <option value="tomorrow.min.css">Tomorrow</option>
+                    <option value="tomorrow-night.min.css">Tomorrow Night</option>
+                    <option value="tomorrow-night-bright.min.css">Tomorrow Night Bright</option>
+                    <option value="tomorrow-night-blue.min.css">Tomorrow Night Blue</option>
+                    <option value="tomorrow-night-eighties.min.css">Tomorrow Night Eighties</option>
+                    <option value="railscasts.min.css">Railscasts</option>
+                    <option value="obsidian.min.css">Obsidian</option>
+                    <option value="docco.min.css">Docco</option>
+                    <option value="mono-blue.min.css">Mono Blue</option>
+                    <option value="foundation.min.css">Foundation</option>
+                    <option value="atelier-dune.dark.min.css">Atelier Dun - Dark</option>
+                    <option value="atelier-dune.light.min.css">Atelier Dun - Light</option>
+                    <option value="atelier-forest.dark.min.css">Atelier Forest - Dark</option>
+                    <option value="atelier-forest.light.min.css">Atelier Forest - Light</option>
+                    <option value="atelier-heath.dark.min.css">Atelier Heath - Dark</option>
+                    <option value="atelier-heath.light.min.css">Atelier Heath - Light</option>
+                    <option value="atelier-lakeside.dark.min.css">Atelier Lakeside - Dark</option>
+                    <option value="atelier-lakeside.light.min.css">Atelier Lakeside - Light</option>
+                    <option value="atelier-seaside.dark.min.css">Atelier Seaside - Dark</option>
+                    <option value="atelier-seaside.light.min.css">Atelier Seaside - Light</option>
+                    <option value="paraiso.dark.min.css">Paraíso - Dark</option>
+                    <option value="paraiso.light.min.css">Paraíso - Light</option>
+                    <option value="color-brewer.min.css">Colorbrewer</option>
+                    <option value="codepen-embed.min.css">Codepen.io Embed</option>
+                    <option value="kimbie.dark.min.css">Kimbie - Dark</option>
+                    <option value="kimbie.light.min.css">Kimbie - Light</option>
+                    <option value="hybrid.min.css">Hybrid</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+
+    <config/>
+</extension>
