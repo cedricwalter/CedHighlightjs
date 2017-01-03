@@ -11,6 +11,8 @@ Simple and lightweight syntax highlighting of source code snippets using Google 
 
 [More details](https://www.galaxiis.com/cedhighlightjs-showcase/) 
 
+This is the **free version** the premium version can be bought together with support at [www.galaxiis.com](https://www.galaxiis.com)
+
 ## Demo
 [https://www.galaxiis.com/cedhighlightjs-demo/](https://www.galaxiis.com/cedhighlightjs-demo/)
 
