@@ -1,14 +1,6 @@
-Joomla Extension CedHighlightjs for your Joomla site
+# CedHighlightjs for Joomla
 
-This is a Joomla plugin
-
-Product page https://www.galaxiis.com/cedhighlightjs-showcase/
-
-Syntax highlighting of source code snippets in an html page!
-
-How CedHighlightjs Works
-
-Simple and lightweight syntax highlighting of source code snippets using Google Code Prettify JavaScript library for Joomla.
+Simple and lightweight syntax highlighting of source code snippets using Google Code Prettify JavaScript library for [Joomla!](https://www.joomla.org).
 
 - 112 languages,
 - 49 styles are available to match your blog style,
@@ -17,14 +9,21 @@ Simple and lightweight syntax highlighting of source code snippets using Google 
 - Cross Browser Support
 - and more...
 
-Review CedHighlightjs in Joomla Extension Directory
-https://www.galaxiis.com/cedhighlightjs-jed/
+[More details](https://www.galaxiis.com/cedhighlightjs-showcase/) 
 
-Download CedHighlightjs
-https://www.galaxiis.com/cedhighlightjs-download/
+## Demo
+[https://www.galaxiis.com/cedhighlightjs-demo/](https://www.galaxiis.com/cedhighlightjs-demo/)
 
-CedHighlightjs Documentation
-https://www.galaxiis.com/cedhighlightjs-doc/
+## Documentation
+[https://www.galaxiis.com/cedhighlightjs-doc/](https://www.galaxiis.com/cedhighlightjs-doc/)
 
-CedHighlightjs Showcase
-https://www.galaxiis.com/cedhighlightjs-demo/
+## Joomla JED
+[https://www.galaxiis.com/cedhighlightjs-jed/](https://www.galaxiis.com/cedhighlightjs-jed/)
+
+## Download
+### free version
+You need to [register](https://www.galaxiis.com/index.php/member-access?view=registration) for free and be logged-in to see the [download link](https://www.galaxiis.com/cedhighlightjs-download/)  
+
+### Premium version
+
+You need to [register](https://www.galaxiis.com/index.php/member-access?view=registration) for free, you need a [valid license](https://www.galaxiis.com/cedhighlightjs-subscribe/) to see the [download link](https://www.galaxiis.com/cedhighlightjs-download-club/)

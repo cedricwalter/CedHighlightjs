@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="editors-xtd" method="upgrade">
+    <name>PLG_CEDHIGHTLIGHTJSCODE_DESCRIPTION</name>
+
+    <creationDate>2016-12-31</creationDate>
+    <version>1.2.1</version>
+
+    <author>Galaxiis</author>
+    <authorEmail>galaxiiscom@gmail.com</authorEmail>
+    <authorUrl>www.galaxiis.com</authorUrl>
+
+    <copyright>Copyright (C) 2013-2016 galaxiis.com All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL 3.0</license>
+
+    <description>PLG_CEDHIGHTLIGHTJSCODE_XML_DESCRIPTION</description>
+    <files>
+        <filename plugin="cedhightlightjscode">cedhightlightjscode.php</filename>
+        <filename plugin="cedhightlightjscode">index.html</filename>
+        <folder>language</folder>
+    </files>
+
+</extension>

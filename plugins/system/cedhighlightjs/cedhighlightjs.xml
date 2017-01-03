@@ -20,8 +20,8 @@
 -->
 <extension type="plugin" version="3.0" method="upgrade" group="system">
     <name>CedHighLightJs | Galaxiis.com</name>
-    <creationDate>2016-05-30</creationDate>
-    <version>1.0.1</version>
+    <creationDate>2016-12-31</creationDate>
+    <version>1.2.1</version>
 
     <author>Galaxiis</author>
     <authorEmail>galaxiiscom@gmail.com</authorEmail>
@@ -35,9 +35,7 @@
     <files>
         <filename plugin="cedhighlightjs">cedhighlightjs.php</filename>
         <filename>index.html</filename>
-        <folder>fields</folder>
         <folder>language</folder>
-        <folder>assets</folder>
     </files>
 
     <languages folder="language">
@@ -46,13 +44,37 @@
         <language tag="fr-FR">fr-FR/fr-FR.plg_system_cedhighlightjs.ini</language>
     </languages>
 
-    <config>
+    <config addfieldpath="libraries/galaxiis/fields">
         <fields name="params">
 
-            <!--https://highlightjs.org/download/-->
-            <fieldset name="basic" addfieldpath="plugins/system/cedhighlightjs/fields">
+            <fieldset name="basic">
+
+                <field shortId="cedhighlightjs"
+                       name="toolbar"
+                       type="galaxiisbar"/>
+                <field
+                        name="message"
+                        type="galaxiismessage"
+                        message="note"
+                        label="Please help us: vote, suggest and give us your opinion in the Joomla extensions directory. With this you will help us to increase our interest to modify and update the extension. Thank you very much."/>
+                <field
+                        name="version_msg"
+                        type="galaxiismessage"
+                        message="version"
+                        version="1.2.1"
+                        extension_name="CedHighLightJs"/>
+
+                <field name="mode" type="radio" default="2" label="PLG_SYSTEM_CEDHIGHLIGHTJS_MODE"
+                       description="PLG_SYSTEM_CEDHIGHLIGHTJS_MODE_DESC"
+                       class="btn-group">
+                    <option value="0">PLG_SYSTEM_CEDHIGHLIGHTJS_MODE0</option>
+                    <option value="1">PLG_SYSTEM_CEDHIGHLIGHTJS_MODE1</option>
+                    <option value="2">PLG_SYSTEM_CEDHIGHLIGHTJS_MODE2</option>
+                </field>
+
                 <field name="skins" type="radio" default="default.min.css" label="PLG_SYSTEM_CEDHIGHLIGHTJS_SKINS"
-                       description="PLG_SYSTEM_CEDHIGHLIGHTJS_SKINS_DESC">
+                       description="PLG_SYSTEM_CEDHIGHLIGHTJS_SKINS_DESC"
+                       base_path="/media/plg_system_cedprettify/skins/">
 
                     <option value="default.min.css">Default</option>
                     <option value="dark.min.css">Dark</option>
